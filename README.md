@@ -70,6 +70,7 @@ Here are some key SQL commands used in the project:
          FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
      );
      ```
+     <img src="Screenshot (163).png">
 
    - **Courses Table**
      ```sql
@@ -82,7 +83,7 @@ Here are some key SQL commands used in the project:
          FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
      );
      ```
-     
+     <img src="Screenshot (164).png">
    - **Enrollments Table**
      ```sql
      CREATE TABLE Enrollments (
@@ -95,6 +96,7 @@ Here are some key SQL commands used in the project:
          FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)
      );
      ```
+     <img src="Screenshot (165).png">
    - **Grades Table**
      ```sql
      CREATE TABLE Grades (
@@ -104,6 +106,11 @@ Here are some key SQL commands used in the project:
          FOREIGN KEY (EnrollmentID) REFERENCES Enrollments(EnrollmentID)
      );
      ```
+     <img src="Screenshot (166).png">
+     <img src="Screenshot (167).png">
+     <img src="Screenshot (168).png">
+     <img src="Screenshot (169).png">
+     <img src="Screenshot (170).png">
    
 ### **Contact Information**
      
